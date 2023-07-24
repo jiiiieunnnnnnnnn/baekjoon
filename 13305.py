@@ -8,4 +8,5 @@ for i in range(n-1):
     ans = ans + (c*a[i])
     if b[i] >= b[i+1]:
         c=b[i+1]
+
 print(ans)
